@@ -3,15 +3,16 @@
 </script>
 
 <div>
-    <h2><slot/></h2>
     <span class="divider"></span>
+    <h2><slot/></h2>
+    <!-- <span class="divider"></span> -->
 </div>
 
 
 <style>
 
     h2{
-        padding-bottom: 24px;
+        padding: 24px 0;
     }
 
     .divider{
@@ -22,7 +23,13 @@
     }
 
     div{
-        padding-bottom: 64px;
+        padding-bottom: 32px;
+    }
+
+    @media only screen and (max-width:900px){
+        div{
+            padding-bottom: 16px;
+        }
     }
 
 </style>

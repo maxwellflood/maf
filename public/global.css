@@ -97,6 +97,13 @@ html {
 
 body{
 	background-color: var(--black);
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+main{
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 /* --- Typography --- */
@@ -117,7 +124,7 @@ p{
 p.large{
 	font-family: var(--roslindale);
 	font-size: 64px;
-	line-height: 72px;
+	line-height: 80px;
 }
 
 
