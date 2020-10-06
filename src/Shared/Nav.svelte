@@ -34,6 +34,7 @@
         font-weight: light;
         font-size: 24px;
         line-height: 1;
+        color: var(--black);
     }
     .menu{
         width:32px;

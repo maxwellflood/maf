@@ -8,7 +8,7 @@
             <Subheader>About</Subheader>
             <span class="divider"></span>
             <p class="large">
-                Howdy partner. I’m Maxwell, a designer, creative director and co-founder of London based <a href="#" class="inverse">Grotesk Studio</a>.
+                Howdy partner, I’m Maxwell, a designer, creative director and co-founder of London based <a href="https://grotesk.studio/" target="new">Grotesk Studio</a>.
                 <br/>
                 <br/>
                 I relish collaborating with established businesses, start-ups and friends to create engaging and exciting visual experiences.
@@ -25,10 +25,10 @@
         </div>
         <div class="contact-wrapper">
             <Subheader>Contact</Subheader>
-            <p class="large"> <a href="#"> Email </a></p>
-            <p class="large"> <a href="#"> Instagram </a></p>
-            <p class="large"> <a href="#"> Twitter </a></p>
-            <p class="large"> <a href="#"> LinkedIn </a></p>
+            <p class="large"> <a href="mailto:maxwell@grotesk.studio"> Email </a></p>
+            <p class="large"> <a href="https://www.instagram.com/maxwellflood/" target="blank"> Instagram </a></p>
+            <p class="large"> <a href="https://twitter.com/maxwellflood" target="blank"> Twitter </a></p>
+            <p class="large"> <a href="https://www.linkedin.com/in/maxwellflood/" target="blank"> LinkedIn </a></p>
         </div>
     </div>
 </section>
@@ -91,15 +91,17 @@
         bottom: 0;
         left: 0;
         background-color: var(--black);
-        visibility: visible;
-        transform: scaleX(1);
-        transform-origin: bottom right;
+        visibility: hidden;
+        transform: scaleX(0);
+        transform-origin: bottom left;
         transition: all 0.3s ease 0s;
     }
     p.large > a.inverse:hover::before{
-        visibility: hidden;
-        transform: scaleX(0);
+        visibility: visible;
+        transform: scaleX(1);
     }
+
+ 
 
     /* --- Mid --- */
     

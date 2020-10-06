@@ -4,9 +4,7 @@
 
 <div class="wrapper">
 
-    <img    srcset="assets/images/Profile.png,
-             assets/images/Profile@2x.png 2x"
-            src="assets/images/Profile.png" alt="">
+    <img srcset="assets/images/Profile.png, assets/images/Profile@2x.png 2x" src="assets/images/Profile.png" alt="">
 
 </div>
 
